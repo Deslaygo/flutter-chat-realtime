@@ -8,9 +8,9 @@ import '../screens/login_screen.dart';
 import '../screens/register_screen.dart';
 
 final Map<String, Widget Function(BuildContext)> appRoutes = {
-  'usuarios': (_) => UsuariosScreen(),
+  'usuarios': (_) => const UsuariosScreen(),
   'chat': (_) => ChatScreen(),
   'loading': (_) => LoadingScreen(),
   'login': (_) => const LoginScreen(),
-  'register': (_) => RegisterScreen(),
+  'register': (_) => const RegisterScreen(),
 };

@@ -15,7 +15,7 @@ class CustomButtom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         primary: bgButton,
         shape: const StadiumBorder(),
